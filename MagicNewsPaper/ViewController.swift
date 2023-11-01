@@ -55,10 +55,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode() //Scene Kit Node
         if let imageAnchor = anchor as? ARImageAnchor {
+            
+            let videoNode = SKVideoNode(fileNamed: "eggplant.mp4") // Spritekit Video Node
+            
+            videoNode.play() // playing the video automatically
+            
+            let videoScene = SKScene(size: CGSize(width: 1920, height: 1080))
+            
+            videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2) // Scalling and postioning the video in the middle
+            
+            videoNode.yScale = -1.0 //Using the yscale since the video was flipped on y axis
+            // using the negative value, to reverse the video
+            
+            videoScene.addChild(videoNode) // making it ready for display on 2D
             // Defining Plane
+            
             let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
             
-            plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+            plane.firstMaterial?.diffuse.contents = videoScene
             
             let planeNode = SCNNode(geometry: plane)
             

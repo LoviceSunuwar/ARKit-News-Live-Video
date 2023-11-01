@@ -14,11 +14,7 @@
 		B20F4D802AF1FA6E0004E9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20F4D7F2AF1FA6E0004E9BA /* Assets.xcassets */; };
 		B20F4D832AF1FA6E0004E9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20F4D812AF1FA6E0004E9BA /* LaunchScreen.storyboard */; };
 		B20F4D8F2AF1FAA70004E9BA /* eggplant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20F4D892AF1FAA30004E9BA /* eggplant.mp4 */; };
-		B20F4D902AF1FAA70004E9BA /* turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = B20F4D8A2AF1FAA30004E9BA /* turkey.png */; };
 		B20F4D912AF1FAA70004E9BA /* eggplant.png in Resources */ = {isa = PBXBuildFile; fileRef = B20F4D8B2AF1FAA30004E9BA /* eggplant.png */; };
-		B20F4D922AF1FAA70004E9BA /* turkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20F4D8C2AF1FAA40004E9BA /* turkey.mp4 */; };
-		B20F4D932AF1FAA70004E9BA /* crossaint.png in Resources */ = {isa = PBXBuildFile; fileRef = B20F4D8D2AF1FAA40004E9BA /* crossaint.png */; };
-		B20F4D942AF1FAA70004E9BA /* crossaint.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20F4D8E2AF1FAA70004E9BA /* crossaint.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,11 +26,7 @@
 		B20F4D7F2AF1FA6E0004E9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20F4D822AF1FA6E0004E9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20F4D892AF1FAA30004E9BA /* eggplant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = eggplant.mp4; sourceTree = "<group>"; };
-		B20F4D8A2AF1FAA30004E9BA /* turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turkey.png; sourceTree = "<group>"; };
 		B20F4D8B2AF1FAA30004E9BA /* eggplant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggplant.png; sourceTree = "<group>"; };
-		B20F4D8C2AF1FAA40004E9BA /* turkey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = turkey.mp4; sourceTree = "<group>"; };
-		B20F4D8D2AF1FAA40004E9BA /* crossaint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossaint.png; sourceTree = "<group>"; };
-		B20F4D8E2AF1FAA70004E9BA /* crossaint.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = crossaint.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +59,8 @@
 		B20F4D752AF1FA6C0004E9BA /* MagicNewsPaper */ = {
 			isa = PBXGroup;
 			children = (
-				B20F4D8E2AF1FAA70004E9BA /* crossaint.mp4 */,
-				B20F4D8D2AF1FAA40004E9BA /* crossaint.png */,
 				B20F4D892AF1FAA30004E9BA /* eggplant.mp4 */,
 				B20F4D8B2AF1FAA30004E9BA /* eggplant.png */,
-				B20F4D8C2AF1FAA40004E9BA /* turkey.mp4 */,
-				B20F4D8A2AF1FAA30004E9BA /* turkey.png */,
 				B20F4D762AF1FA6C0004E9BA /* AppDelegate.swift */,
 				B20F4D782AF1FA6C0004E9BA /* art.scnassets */,
 				B20F4D7A2AF1FA6C0004E9BA /* ViewController.swift */,
@@ -143,14 +131,10 @@
 			files = (
 				B20F4D8F2AF1FAA70004E9BA /* eggplant.mp4 in Resources */,
 				B20F4D792AF1FA6C0004E9BA /* art.scnassets in Resources */,
-				B20F4D942AF1FAA70004E9BA /* crossaint.mp4 in Resources */,
 				B20F4D832AF1FA6E0004E9BA /* LaunchScreen.storyboard in Resources */,
 				B20F4D802AF1FA6E0004E9BA /* Assets.xcassets in Resources */,
 				B20F4D912AF1FAA70004E9BA /* eggplant.png in Resources */,
-				B20F4D922AF1FAA70004E9BA /* turkey.mp4 in Resources */,
 				B20F4D7E2AF1FA6C0004E9BA /* Main.storyboard in Resources */,
-				B20F4D902AF1FAA70004E9BA /* turkey.png in Resources */,
-				B20F4D932AF1FAA70004E9BA /* crossaint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
