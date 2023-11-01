@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "crossaint.arreferenceimage"
+    },
+    {
+      "filename" : "eggplant.arreferenceimage"
+    },
+    {
+      "filename" : "turkey.arreferenceimage"
+    }
+  ]
+}
